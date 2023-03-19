@@ -4,12 +4,12 @@
 }
 </script>
 <script>
-function mostrarTelefono() {
+  function mostrarTelefono() {
     document.getElementById("telefono").innerHTML = "2323655516";
 }
 </script>
 <script>
-function mostrarEmail() {
+  function mostrarEmail() {
     document.getElementById("E-mail").innerHTML = "rocio_albarracin@yahoo.com.ar";
 }
 </script>
