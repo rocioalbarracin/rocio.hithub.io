@@ -61,9 +61,11 @@ Estilo de diferentes secciones: resumen, educación, experiencia, trabajo, habil
 Estilo de diferentes listas en secciones: educación, habilidades e idiomas con el mismo estilo
 */
 .educacion ul, .habilidades ul, .idiomas ul {
-    list-style-type: circle;
     margin: 0;
     padding: 0;
+}
+.educacion li, .habilidades li, .idiomas li {
+    list-style-type: circle;
 }
 
 
