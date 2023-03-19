@@ -90,17 +90,13 @@ Sección de experiencia laboral
 }
 
 /**
-Pie de página donde se ubican los diferentes iconos de redes sociales
+Link a los diferentes iconos de redes sociales
 */
-.pie {
-        background-color: #a8adc2;
-        color: #ffffff;
-    }
-
 .píe img {
     border-radius: 100%;
     width: 30px;
     height: 30px;
+    margin-right: 1em;
 }
 
    
