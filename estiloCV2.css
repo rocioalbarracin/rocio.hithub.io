@@ -92,11 +92,28 @@ Sección de experiencia laboral
 /**
 Link a los diferentes iconos de redes sociales
 */
-.píe img {
-    border-radius: 100%;
+.social {
+    display: flex;
+    justify-content: center;
+}
+  
+.social a {
+    margin-right: 10px;
+}
+
+.social img {
+    width:40px;
+}
+.icono {
     width: 30px;
     height: 30px;
-    margin-right: 1em;
+    
+}
+.píe {
+    background-color: #a8adc2;
+    color: #ffffff;
+    padding: 1em;
+    text-align: center;
 }
 
    
