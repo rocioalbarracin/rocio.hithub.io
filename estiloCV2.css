@@ -100,12 +100,12 @@ Pie de página donde se ubican los diferentes iconos de redes sociales
         text-align: center;
     }
 
-/**
-Estilo de íconos de redes sociales
-*/
-.icono {
-        border-radius: 100%;
-        width: 30px;
-        height: 30px;
-        
+
+.píe img {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    margin-right: 1em;
 }
+
+   
