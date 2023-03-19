@@ -1,5 +1,5 @@
 /**
-Estilos Cuerpo y títulos generale 
+Estilos Cuerpo y títulos generale s
 */
 body {
     font-family: 'Fira Sans', sans-serif;
@@ -78,7 +78,7 @@ Sección de experiencia laboral
 .experiencia p {
     font-size: 14px;
     margin-bottom: 5px;
-    color: grey;
+    color: #808080;
 }
 
 .experiencia ul {
@@ -96,7 +96,7 @@ Pie de página donde se ubican los diferentes iconos de redes sociales
 .pie {
    
         background-color: #a8adc2;
-        color: white;
+        color: #ffffff;
         padding: 1em;
         text-align: center;
     }
