@@ -23,9 +23,9 @@
         
         <img src="fotocv.jpg" alt="Foto" class="foto">
         <ul>
-            <li>Dirección: <span id="direccion"></span></li>
-            <li>Teléfono: <span id="telefono"></span></li>
-            <li>Correo electrónico: <span id="E-mail"></span></li>
+            <li>Dirección: <span id="dir"></span></li>
+            <li>Teléfono: <span id="tel"></span></li>
+            <li>Correo electrónico: <span id="mail"></span></li>
             <button id="mostrarDireccion" onclick="mostrarDireccion()">Mostrar dirección</button>
             <button id="mostrarTelefono" onclick="mostrarTelefono()">Mostrar teléfono</button>
             <button id="mostrarEmail" onclick="mostrarEmail()">Mostrar E-Mail</button>
@@ -35,7 +35,7 @@
                     <input type="text" id="mensaje" name="mensaje" size="50"></input>
                     <input type="submit" id="mail" value="Contactar por mail"></input>
                         
-                   
+                    <script src="js/funcionCV.js"></script>
                 </li>
              </form>
         </ul>
@@ -58,65 +58,36 @@
     </section>
 
         
-    </div>
     <section class="experiencia">
         <h3>Experiencia</h3>
-            <div class="trabajo">
-                <div class="trabajo-desempeño">
-                    <h4>Profesora nivel terciario.</h4>
-                </div>
-                <div class="trabajo-fecha">
-                    <p> Marzo 2019 - Actualidad</p>
-                </div>
-                <div class="trabajo-tareas">
-                    <ul>
-                        <li>Profesora de “Fundamentos básicos de las ciencias exactas” </li>
-                        <li>Profesora de “Espacio de Definición Institucional” </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="trabajo">
-                <div class="trabajo-desempeño">
-                    <h4>Independiente.</h4>
-                </div>
-                <div class="trabajo-fecha">
-                    <p> Marzo 2016 - Noviembre 2021</p>
-                </div>
-                <div class="trabajo-tareas">
-                    <ul>
-                        <li>Consultora de Recursos Humanos. Búsqueda y reclutamiento de candidatos para los puestos requeridos a través de distintas páginas de búsqueda laboral. Contacto telefónico y vía mail para las distintas entrevistas. </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="trabajo">
-                <div class="trabajo-desempeño">
-                    <h4>Profesora particular.</h4>
-                </div>
-                <div class="trabajo-fecha">
-                    <p> Marzo 2015- Actualidad</p>
-                </div>
-                <div class="trabajo-tareas">
-                    <ul>
-                        <li>Clases particulares de Física y Matemáticas, para Primario y Secundario. </li>
-                        <li>Clases particulares de Análisis Matemático y Algebra para Universidad. </li>
-                    </ul>                    </div>
-                </div>
-            <div class="trabajo">
-                <div class="trabajo-desempeño">
-                    <h4>Soporte Técnico.</h4>
-                </div>
-                <div class="trabajo-fecha">
-                    <p> Mayo 2010 - Febrero 2015 </p>
-                </div>
-                <div class="trabajo-tareas">
-                    <ul>
-                        <li>Soporte Técnico de equipamiento informático. Instalación e implementación de software. Asesoramiento técnico.  </li>
-                        <li>Desarrollo Sistemas Administrativos, Soporte Técnico, Tareas Administrativas, Armado e informe de Estadísticas, Compra de Insumos y control de Stock. 
-                                Asesoramiento técnico. Confección de pliegos de licitación.  </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+            <h4>Profesora nivel terciario.</h4>
+                <p> Marzo 2019 - Actualidad</p>
+                <ul>
+                    <li>Profesora de “Fundamentos básicos de las ciencias exactas” </li>
+                    <li>Profesora de “Espacio de Definición Institucional” </li>
+                </ul>
+                
+            <h4>Independiente.</h4>
+                <p> Marzo 2016 - Noviembre 2021</p>
+                <ul>
+                    <li>Consultora de Recursos Humanos. Búsqueda y reclutamiento de candidatos para los puestos requeridos a través de distintas páginas de búsqueda laboral. Contacto telefónico y vía mail para las distintas entrevistas. </li>
+                </ul>
+            
+            <h4>Profesora particular.</h4>
+                <p> Marzo 2015- Actualidad</p>
+                <ul>
+                    <li>Clases particulares de Física y Matemáticas, para Primario y Secundario. </li>
+                    <li>Clases particulares de Análisis Matemático y Algebra para Universidad. </li>
+                </ul>          
+        
+            <h4>Soporte Técnico.</h4>
+                <p> Mayo 2010 - Febrero 2015 </p>
+                <ul>
+                    <li>Soporte Técnico de equipamiento informático. Instalación e implementación de software. Asesoramiento técnico.  </li>
+                    <li>Desarrollo Sistemas Administrativos, Soporte Técnico, Tareas Administrativas, Armado e informe de Estadísticas, Compra de Insumos y control de Stock.                             Asesoramiento técnico. Confección de pliegos de licitación.  </li>
+                </ul>
+    </section>
+    
             
     <section class="habilidades">
         <h3>Habilidades</h3>
@@ -153,28 +124,6 @@
            
     </div>
 
-    <script>
-        function mostrarDireccion() {
-            document.getElementById("direccion").innerHTML = "Open Door, Provincia Bs. As.";
-        }
-    </script>
-    <script>
-        function mostrarTelefono() {
-            document.getElementById("telefono").innerHTML = "2323655516";
-        }
-    </script>
-    <script>
-        function mostrarEmail() {
-            document.getElementById("E-mail").innerHTML = "rocio_albarracin@yahoo.com.ar";
-        }   
-    </script>
-    <script>
-        document.getElementById('mail').addEventListener('click',function(){
-            document.getElementById('mensaje').style.webkitTextFillColor='#FF0000';
-            document.getElementById('enviado').addEventListener('click', function(){
-            });
-        });
-    </script>
 </body>
         
 </html>
