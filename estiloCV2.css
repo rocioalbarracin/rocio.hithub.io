@@ -82,10 +82,13 @@ Sección de experiencia laboral
 }
 
 .experiencia ul {
-    list-style-type:square;
+    
     margin-left: 20px;
 }
-
+.experiencia li {
+    list-style-type:square;
+    
+}
 
 /**
 Pie de página donde se ubican los diferentes iconos de redes sociales
