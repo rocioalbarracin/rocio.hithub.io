@@ -104,7 +104,8 @@ Pie de página donde se ubican los diferentes iconos de redes sociales
 Estilo de íconos de redes sociales
 */
 .icono {
-    width: 30px;
-    height: 30px;
-    
+        border-radius: 100%;
+        width: 30px;
+        height: 30px;
+        
 }
