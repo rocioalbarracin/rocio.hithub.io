@@ -58,47 +58,31 @@ Estilo de diferentes secciones: resumen, educación, experiencia, trabajo, habil
 }
 
 /**
-Estilo de diferentes listas en secciones: educación, experiencia, habilidades e idiomas con el mismo estilo
+Estilo de diferentes listas en secciones: educación, habilidades e idiomas con el mismo estilo
 */
-.educacion ul, .experiencia ul, .habilidades ul, .idiomas ul {
+.educacion ul, .habilidades ul, .idiomas ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
 /**
-Sección de trabajos, dividido en 3 columnas con diferentes datos 
+Sección de experiencia laboral 
 */
-.trabajo {
-    display: flex;
-    margin-bottom: 10px;
-}
 
-.trabajo-desempeño {
-    width: 30%;
-}
-.trabajo-fecha {
-    width: 30%;
-}
-
-.trabajo-tareas {
-    width: 30%;
-    padding-left: 20px;
-}
-
-.trabajo h4 {
+.experiencia h4 {
     font-size: 18px;
     margin-bottom: 5px;
 }
 
-.trabajo p {
+.experiencia p {
     font-size: 14px;
     margin-bottom: 5px;
     color: gray;
 }
 
-.trabajo ul {
-    list-style-type: square;
+.experiencia ul {
+    list-style-type:square;
     margin-left: 20px;
 }
 
